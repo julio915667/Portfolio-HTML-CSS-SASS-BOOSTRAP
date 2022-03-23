@@ -12,6 +12,10 @@
     <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/logo.png">
+    <!--Libreria de Animaciones-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
@@ -37,7 +41,7 @@
         <main class="MainGridServices">
             <section>
                 <div class="contendedorServices">
-                    <div class="StyleTitleOfThePage">
+                    <div class="StyleTitleOfThePage wow animate__zoomIn">
 
                         <h4>Servicios</h4>
 
@@ -45,7 +49,7 @@
                 </div>
                 <div class="contenedorDeServicios">
 
-                    <figure id="ServiceTech">
+                    <figure id="ServiceTech" class=" wow animate__zoomIn">
                         <figcaption class="StyleTitleServiceTechPC">
                             Servicio Tecnico PC
                         </figcaption>
@@ -58,7 +62,7 @@
                             ipsum quaerat? Officia ipsum sapiente rem?</p>
                     </figure>
                     <!--Seccion de Servicio tecnico Pc-->
-                    <figure>
+                    <figure class=" wow animate__zoomIn">
                         <figcaption class="StyleTitleDesarrolloWeb">
                             Desarrollo Web
                         </figcaption>
@@ -110,7 +114,11 @@
         <a href="#Up"> <i class="gg-arrow-up ColorUP"></i></a>
     </div>
 
-
+<!--WOW ANIMATE-->
+<script src="../js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 
 </html>

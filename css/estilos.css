@@ -70,6 +70,7 @@ body {
     background-size: 100% 2px;
 }
 
+
 footer {
     color: white;
     text-align: center;
@@ -608,21 +609,25 @@ figure a .photoPage1,
 .GridFootPort {
     grid-area: FootPort;
 }
+
 /* Grid Contacto*/
-.GridContainerContact{
-    display:grid;
+.GridContainerContact {
+    display: grid;
     grid-template-areas:
-    "NavContact NavContact NavContact"
-    "MainContact MainContact MainContact" "FooterContact FooterContact FooterContact";
+        "NavContact NavContact NavContact"
+        "MainContact MainContact MainContact""FooterContact FooterContact FooterContact";
 
 }
-.GridNavContact{
-grid-area: NavContact;
+
+.GridNavContact {
+    grid-area: NavContact;
 }
-.GridMainContact{
-grid-area: MainContact;
+
+.GridMainContact {
+    grid-area: MainContact;
 }
-.GridFooterContact{
+
+.GridFooterContact {
     grid-area: FooterContact;
 }
 
@@ -1081,4 +1086,31 @@ grid-area: MainContact;
     .GridMainPort p.TextStyle {
         font-size: 2vw;
     }
+}
+
+/*Animaciones*/
+
+.contendedor--Welcome:hover div {
+    transform: rotate(1turn);
+    transform-origin: 50% 50% 0;
+    transition: transform .4s;
+}
+
+/*Animaciones de la Libreria ANIMATE.CSS*/
+.animate__bounceInDown, .animate__backInDown {
+    animation: backwards;
+    animation-duration: 2s;
+}
+
+.animate__backInRight {
+    animation-duration: 2s;
+}
+
+.animate__zoomIn {
+    animation-duration: 2s;
+}
+
+.animate__slideInDown {
+    animation-duration: 2s;
+
 }
