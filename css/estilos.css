@@ -58,16 +58,20 @@ body {
 .barra__Nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background: linear-gradient(currentColor);
+    background: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .3s;
+    transition-timing-function: ease-out;
+    transition-delay: .2s;
+ transition: background-size .3s;
 }
 
 .barra__Nav ul li a:hover {
+    
     color: red;
     background-size: 100% 2px;
+    
 }
 
 
@@ -260,13 +264,15 @@ footer button {
 
 .btn:hover {
     background-position: right center;
-    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    transform: scale(1.2);
+    transition: all .4s;
+
 }
 
 .btn:active {
-    transform: scale(0.95);
+    transform: scale(0.95) rotate(1turn);
 }
 
 .btn a {
