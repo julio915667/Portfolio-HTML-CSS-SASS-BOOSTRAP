@@ -12,6 +12,10 @@
     <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/logo.png">
+    <!--Libreria de Animaciones-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
@@ -42,11 +46,11 @@
                 <div class="contendedorServices">
                     <div class="StyleTitleOfThePage">
 
-                        <h4 class="StyleOfTheMediaQuery">Mi Portafolio</h4>
+                        <h4 class="StyleOfTheMediaQuery wow animate__zoomIn">Mi Portafolio</h4>
 
                     </div>
                 </div>
-                <div class="contenedorDeServicios">
+                <div class="contenedorDeServicios wow animate__zoomIn">
                     <!--Pagina 1-->
                     <figure>
                         <a href="http://www.wikipedia.com" target="_blank">
@@ -62,7 +66,7 @@
                             ipsum quaerat? Officia ipsum sapiente rem?</p>
                     </figure>
                     <!--Pagina 2-->
-                    <figure>
+                    <figure class="wow animate__zoomIn">
 
                         <a href="http://www.facebook.com" target="_blank">
                             <img src="../img/pagina2.jpg" alt="" class="photoPage2" title="Pagina 2"> </a>
@@ -111,6 +115,12 @@
             </div>
         </footer>
     </div>
+    <!--WOW ANIMATE-->
+    <script src="../js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
 </body>
 
 </html>
