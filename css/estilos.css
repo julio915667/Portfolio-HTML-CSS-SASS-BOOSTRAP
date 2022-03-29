@@ -246,10 +246,9 @@ footer button {
 }
 
 .contenedor--sobremiText {
-    text-align: center;
+
     color: white;
     font-size: 1.2em;
-    line-height: 1.2;
     width: 800px;
 }
 
@@ -452,34 +451,36 @@ figure a .photoPage1,
     padding-top: 10px;
     padding-bottom: 10px;
 }*/
- .contenedorFormulario {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        width: 25vw;
-        background-color: #212121;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .displayInputForm {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-     .form-control1{
-        display:flex;
-        width:49vw;
-    }
+.contenedorFormulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    background-color: #212121;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.displayInputForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-control1 {
+    display: flex;
+    width: 49vw;
+}
 
 .TextOfTheInputs {
     margin-top: 5px;
@@ -508,6 +509,7 @@ figure a .photoPage1,
     background-color: red;
     color: white;
 }
+
 .form-control1 {
     display: block;
     width: 100%;
@@ -523,8 +525,9 @@ figure a .photoPage1,
     -moz-appearance: none;
     appearance: none;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
 .form-control1:focus {
     color: #212529;
     background-color: #fff;
@@ -532,15 +535,18 @@ figure a .photoPage1,
     outline: 0;
     box-shadow: 0 0 0 0.25rem #ff000021;
 }
+
 .form-check-input:checked {
     background-color: #ff0000 !important;
     border-color: #000000 !important;
     box-shadow: 0 0 0 0.25rem #ff000030 !important;
 }
+
 .form-check-input:focus {
     border-color: #ff0000b0 !important;
     box-shadow: 0 0 0 0.25rem #ff000024 !important;
 }
+
 /*BOTON DE SUBIDA: UP*/
 .ColorUP {
     color: white;
@@ -661,6 +667,7 @@ figure a .photoPage1,
 
 .MainGridServices {
     grid-area: MainNavServices;
+    height: 200vh;
 }
 
 .FooterGridServices {
@@ -782,7 +789,7 @@ figure a .photoPage1,
 
     .StyleTitleOfThePage h4 {
         font-size: 18vw;
-        margin-bottom: 200px;
+        margin-bottom: 0px;
     }
 
     .StyleTitleServiceTechPC,
@@ -849,14 +856,17 @@ figure a .photoPage1,
         align-items: center;
         flex-wrap: wrap;
     }
-    .textAreaForm{
+
+    .textAreaForm {
         width: 80vw !important;
     }
-    .form-control1{
-        display:inline;
-        width:90%;
+
+    .form-control1 {
+        display: inline;
+        width: 90%;
     }
-    .form-control1Size{
+
+    .form-control1Size {
         width: 77vw;
     }
 }
@@ -975,8 +985,8 @@ figure a .photoPage1,
         width: 90vw;
     }
 
-      /*Archivo Formulario*/
-      .contenedorFormulario {
+    /*Archivo Formulario*/
+    .contenedorFormulario {
         width: 90vw;
         display: flex;
         text-align: center;
@@ -996,14 +1006,16 @@ figure a .photoPage1,
         align-items: center;
         flex-wrap: wrap;
     }
-    .textAreaForm{
+
+    .textAreaForm {
         width: 85vw !important;
     }
-    .form-control1{
-        display:inline;
-        width:95%;
+
+    .form-control1 {
+        display: inline;
+        width: 95%;
     }
-    
+
 }
 
 @media only screen and (min-width: 600px) and (max-width:815px) {
@@ -1091,6 +1103,7 @@ figure a .photoPage1,
     .photoPage2 {
         width: 90vw;
     }
+
     .contenedorFormulario {
         display: flex;
         flex-direction: column;
@@ -1107,6 +1120,7 @@ figure a .photoPage1,
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .displayInputForm {
         text-align: center;
         display: flex;
@@ -1114,11 +1128,13 @@ figure a .photoPage1,
         align-items: center;
         flex-wrap: wrap;
     }
-     .form-control1{
-        display:flex;
-        width:45vw;
+
+    .form-control1 {
+        display: flex;
+        width: 45vw;
     }
 }
+
 /*
 @media only screen and (min-width:800px) and (max-width:1380px) {
     Archivo Formulario
@@ -1227,8 +1243,9 @@ figure a .photoPage1,
     .GridMainPort p.TextStyle {
         font-size: 2vw;
     }
+
     /*Archivo Formulario*/
-     .contenedorFormulario {
+    .contenedorFormulario {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1244,6 +1261,7 @@ figure a .photoPage1,
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .displayInputForm {
         text-align: center;
         display: flex;
@@ -1251,9 +1269,10 @@ figure a .photoPage1,
         align-items: center;
         flex-wrap: wrap;
     }
-     .form-control1{
-        display:flex;
-        width:45vw;
+
+    .form-control1 {
+        display: flex;
+        width: 45vw;
     }
 }
 
@@ -1313,6 +1332,7 @@ figure a .photoPage1,
     .GridMainPort p.TextStyle {
         font-size: 2vw;
     }
+
     /*Archivo Formulario*/
     .contenedorFormulario {
         display: flex;
@@ -1330,6 +1350,7 @@ figure a .photoPage1,
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .displayInputForm {
         text-align: center;
         display: flex;
@@ -1337,13 +1358,13 @@ figure a .photoPage1,
         align-items: center;
         flex-wrap: wrap;
     }
-     .form-control1{
-        display:flex;
-        width:45vw;
+
+    .form-control1 {
+        display: flex;
+        width: 45vw;
     }
-    .form-control1Size{
-        
-    }
+
+    .form-control1Size {}
 }
 
 /*Animaciones*/
@@ -1366,13 +1387,68 @@ figure a .photoPage1,
 }
 
 .animate__zoomIn {
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 .animate__slideInDown {
     animation-duration: 2s;
 
 }
-.form-control1Size{
+
+.animate__fadeInDownBig {
+    animation-duration: 4s;
+}
+.animate__fadeInLeft, .animate__slideInDown[class="Card col-6 wow animate__slideInDown mx-5 pt-3"] {
+    animation-duration: 4s;
+}
+.form-control1Size {
     width: 77vw;
+}
+
+.btnRed {
+
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fafcff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: red;
+    border: 1px solid black;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+.btnRed:hover {
+    color: black;
+}
+
+.Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #212121ad;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.heightMain {
+    height: 1500px;
+}
+
+a.btnRed[href="contacto.html"]:active {
+    transform: scale(1.2);
+    transition: all .4s;
 }
