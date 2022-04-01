@@ -25,8 +25,8 @@
             <nav class="navbar navbar-expand-lg navbar-light barra__Nav">
                 <div class="container-fluid ">
                     <a class="navbar-brand d-flex flex-row flex-wrap align-items-center" href="../index.html"><img
-                            src="../img/logo.png" alt="" width="70px">
-                        <h1 class="ColorStaffH1">Staff Web AR</h1>
+                            src="../img/logo.png" alt="" width="40px">
+                        <h1 class="m-0 px-2 text-uppercase ColorStaffH1 ">Staff Web AR</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -58,34 +58,39 @@
         </header>
         <main class="GridMainContact wow animate__backInDown">
             <div class="ContenedorFormularioGlobal">
-                <form class="contenedorFormulario">
+                <form class="contenedorFormulario container-fluid">
                     <div class="mb-3 divSize">
-                        <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+                        <label for="formGroupExampleInput" class="form-label"><i
+                                class="fa-solid fa-user iconsForm"></i>Nombre y Apellido</label>
                         <input type="text" class="form-control1" id="formGroupExampleInput"
-                            placeholder="Vladimir Makarov">
+                            placeholder="ej: vladimir makarov">
                     </div>
                     <div class="mb-3 divSize">
-                        <label for="formGroupExampleInput" class="form-label">Email</label>
+                        <label for="formGroupExampleInput" class="form-label"><i
+                                class="fa-solid fa-envelope pr-6 iconsForm"></i>Email</label>
                         <input type="email" class="form-control1" id="formGroupExampleInput"
-                            placeholder="Email@mail.com">
+                            placeholder="ej: Email@mail.com">
                     </div>
                     <div class="mb-3 divSize">
-                        <label for="exampleInputPassword1" class="form-label text-light">Telefono</label>
+                        <label for="exampleInputPassword1" class="form-label text-light"><i
+                                class="fa-solid fa-square-phone iconsForm"></i>Telefono</label>
                         <input type="tel" class="form-control1" id="exampleInputPassword1">
                     </div>
                     <div class="mb-3 divSize">
-                        <label for="formGroupExampleInput2" class="form-label">Asunto</label>
-                        <input type="text" class="form-control1" id="formGroupExampleInput2"
-                            >
+                        <label for="formGroupExampleInput2" class="form-label"><i
+                                class="fa-solid fa-message iconsForm"></i>Asunto</label>
+                        <input type="text" class="form-control1" id="formGroupExampleInput2">
                     </div>
                     <div class="mb-3 divSize">
-                        <label for="exampleFormControlTextarea1" class="form-label">Deja tu Mensaje</label>
-                        <textarea class="form-control1 textAreaForm" id="exampleFormControlTextarea1"
-                            rows="3" placeholder="Escriba su Asunto"></textarea>
+                        <label for="exampleFormControlTextarea1" class="form-label"><i
+                                class="fa-solid fa-message-pen iconsForm"></i>Deja tu Mensaje</label>
+                        <textarea class="form-control1 textAreaForm" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Escriba su Asunto"></textarea>
                     </div>
                     <div class="mb-3 form-check Condiciones">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                        <label class="form-check-label text-light" for="exampleCheck1">Terminos y Condiciones.</label>
+                        <label class="form-check-label text-light" for="exampleCheck1">Terminos y Condiciones.<i
+                                class="fa-solid fa-asterisk iconObligatory" title="Obligatorio"></i></label>
                     </div>
                     <button type="submit" class="btn" id="submit">Enviar</button>
                 </form>

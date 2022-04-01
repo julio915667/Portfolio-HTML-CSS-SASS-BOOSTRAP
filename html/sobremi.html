@@ -28,8 +28,8 @@
             <nav class="navbar navbar-expand-lg navbar-light barra__Nav">
                 <div class="container-fluid ">
                     <a class="navbar-brand d-flex flex-row flex-wrap align-items-center" href="../index.html"><img
-                            src="../img/logo.png" alt="" width="70px">
-                        <h1 class="ColorStaffH1">Staff Web AR</h1>
+                            src="../img/logo.png" alt="" width="40px">
+                        <h1 class="m-0 px-2 text-uppercase ColorStaffH1 ">Staff Web AR</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -62,11 +62,15 @@
         </header>
         <main class="heightMain container-fluid d-flex flex-column align-items-center justify-content-center">
             <div>
-                <div class="d-flex flex-column align-items-center justify-content-center wow animate__fadeInDownBig">
-                    <img src="../img/fotomia.jpeg" alt="" class="border border-3 border-dark rounded-circle mb-2">
-                    <div class="Card d-flex flex-column align-items-center justify-content-center rounded">
-                        <h3 class="text-light fs-1 border-dark">Sobre mi</h3>
-                        <p class="contenedor--sobremiText lh-sm text-center">Lorem ipsum dolor sit amet consectetur,
+                <div class=" container-fluid d-flex flex-column align-items-center justify-content-center">
+                    <img src="../img/fotomia.jpeg" alt=""
+                        class="border border-3 border-dark rounded-circle mb-2 wow animate__fadeInDownBig">
+                    <div class=" d-flex flex-column align-items-center justify-content-center rounded">
+                        <h3 class="text-light fs-1 border-dark wow animate__fadeInDownBig text-uppercase mt-2 mb-2">
+                            Sobre mi</h3>
+                        <p
+                            class="container-xxl contenedor--sobremiText lh-base text-center Card wow animate__fadeInDownBig">
+                            Lorem ipsum dolor sit amet consectetur,
                             adipisicing elit.
                             Dignissimos, aliquid voluptatibus! Ducimus accusantium optio dignissimos modi sed laboriosam
                             eos
@@ -91,7 +95,8 @@
                             earum mollitia quo corporis dolorem explicabo natus, voluptatem, ratione beatae ipsam illo?
                             Quia
                             iure laudantium enim tempore voluptas nostrum facilis animi.</p>
-                        <a href="contacto.html" class="btnRed mb-2">Contactarme</a>
+                        <a href="contacto.html"
+                            class="btnRed mb-2 wow animate__slideOutDown animate__slideOutUp">Contactarme</a>
                     </div>
                 </div>
             </div>
@@ -129,6 +134,11 @@
                 </div>
         </footer>
     </div>
+    <!--WOW ANIMATE-->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
