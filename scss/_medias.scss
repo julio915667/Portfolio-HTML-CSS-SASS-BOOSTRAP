@@ -1,0 +1,577 @@
+@media only screen and (max-width: 375px) and (min-width:280px) {
+
+    /*Archivo Index*/
+    .contendedor--Welcome {
+        div {
+            height: 100vh;
+
+            h2 {
+                font-size: 1.9rem;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .barra__Nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-right: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .ColorStaffH1 {
+        font-size: 8vw;
+    }
+
+    /*archivo sobre mi*/
+    .contenedor--sobremiText {
+        font-size: .8em;
+        line-height: 1.2;
+        width: 100vw;
+    }
+
+    .contendedor--sobremi {
+        div {
+            height: 1500px;
+
+            h3 {
+                color: white;
+                font-size: 2em;
+            }
+
+            img {
+                width: 170px;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+            margin-bottom: 0px;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 15vw;
+    }
+
+    figure {
+        width: 100vw;
+    }
+
+    .photoServiceTechPC {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 100%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 10vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 80vw;
+        height: 275px;
+    }
+
+    /*Archivo Formulario*/
+    .contenedorFormulario {
+        width: 90vw;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .GridContainerContact {
+        div {
+            form {
+                input.form-control {
+                    width: 70vw;
+                }
+            }
+        }
+    }
+
+    .displayInputForm {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .textAreaForm {
+        width: 80vw !important;
+    }
+
+    .form-control1 {
+        display: inline;
+        width: 90%;
+    }
+
+    .form-control1Size {
+        width: 77vw;
+    }
+
+    .heightMain {
+        height: 2300px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:375px) {
+    .heightMain {
+        height: 2500px !important;
+    }
+
+    .contendedor--Welcome {
+        div {
+            height: 100vh;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+            }
+        }
+
+    }
+
+    .barra__Nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-right: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+    .LogoAndName {
+        margin-left: 10px;
+    }
+
+    /*archivo sobre mi*/
+    .contenedor--sobremiText {
+        font-size: 1em;
+        line-height: 1.2;
+        width: 100vw;
+    }
+
+    .contendedor--sobremi {
+        height: 2000px;
+
+        div {
+            height: 1800px;
+
+            h3 {
+                color: white;
+                font-size: 2em;
+            }
+
+            img {
+                width: 200px;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 13vw;
+    }
+
+    figure {
+        width: 100vw;
+    }
+
+    .photoServiceTechPC {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 100%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 10vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 90vw;
+    }
+
+    /*Archivo Formulario*/
+    .contenedorFormulario {
+        width: 90vw;
+    }
+
+    .GridContainerContact {
+        div {
+            form {
+                input.form-control {
+                    width: 80vw;
+                }
+            }
+        }
+    }
+
+    .displayInputForm {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .textAreaForm {
+        width: 85vw !important;
+    }
+
+    .form-control1 {
+        display: inline;
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:815px) {
+    .heightMain {
+        height: 2200px !important;
+    }
+
+    .contendedor--Welcome {
+        div {
+            h2 {
+                font-size: 3.1rem;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .GridNavAbout {
+        width: 100vw;
+    }
+
+    /*archivo sobre mi*/
+    .contenedor--sobremiText {
+        font-size: 1.1em;
+        line-height: 1.2;
+        width: 100vw;
+    }
+
+    .contendedor--sobremi {
+        div {
+            h3 {
+                color: white;
+                font-size: 2em;
+            }
+
+            img {
+                width: 250px;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 13vw;
+    }
+
+    figure {
+        width: 100vw;
+    }
+
+    .photoServiceTechPC {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 10vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 90vw;
+    }
+
+
+    .form-control1 {
+        display: flex;
+        width: 45vw;
+    }
+}
+
+@media only screen and (min-width:815px) and (max-width:1016px) {
+    .contendedor--Welcome {
+        div {
+            h2 {
+                font-size: 5.3em;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 12vw;
+        }
+
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 7vw;
+    }
+
+    figure {
+        width: 50vw;
+    }
+
+    .photoServiceTechPC {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 95%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+
+        figure {
+            width: 70vw;
+            height: 50%;
+        }
+
+        p.TextStyle {
+            font-size: 2vw;
+        }
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 9vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 45vw;
+    }
+
+    .form-control1 {
+        display: flex;
+        width: 45vw;
+    }
+}
+
+@media screen and (min-width:1016px) and (max-width:1280px) {
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 5vw;
+    }
+
+    figure {
+        width: 70%;
+    }
+
+    .TextStyle {
+        width: 100%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+
+        figure {
+            width: 60vw;
+            height: 50%;
+        }
+
+        p.TextStyle {
+            font-size: 2vw;
+        }
+    }
+
+    .form-control1 {
+        display: flex;
+        width: 45vw;
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 9vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 45vw;
+    }
+}

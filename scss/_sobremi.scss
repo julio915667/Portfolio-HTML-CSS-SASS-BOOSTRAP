@@ -1,0 +1,58 @@
+/*----------Archivo "sobre mi"---------*/
+.barra__Nav{
+    h1 {
+        text-transform: uppercase;
+        display: flex;
+        text-transform: uppercase;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        margin: 0px;
+    }
+}
+.contendedor--sobremi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 2000px;
+    div {
+        display: flex;
+        height: 1700px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h3 {
+            color: white;
+            font-size: 3em;
+        }
+        img {
+            border: solid 5px #212121;
+            border-radius: 60px;
+        }
+    }
+}
+.contenedor--sobremiText {
+
+    color: white;
+    font-size: 1.2em;
+    width: 800px;
+}
+.Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #212121ad;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.heightMain {
+    height: 1500px;
+}

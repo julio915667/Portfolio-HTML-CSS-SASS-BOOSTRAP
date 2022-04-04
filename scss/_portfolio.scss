@@ -1,0 +1,44 @@
+/*----------------Portfolio-----------------*/
+.StyleTitlePage1 {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.StyleTitlePage2 {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+figure{
+    a{
+        .photoPage1,
+.photoPage2{
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+    text-align: center;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+    }
+}
+.photoPage1 {
+    width: 500px;
+    height: 375px;
+    border: #212121;
+    border-start-end-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-start-start-radius: 50px;
+}
+
+.photoPage2 {
+    width: 500px;
+    height: 375px;
+    border-start-end-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-start-start-radius: 50px;
+
+}
