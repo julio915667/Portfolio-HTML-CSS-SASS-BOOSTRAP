@@ -1,0 +1,79 @@
+footer {
+    color: white;
+    text-align: center;
+    background-color: #212121;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+    button {
+        background: none !important;
+        border: 0;
+    }
+}
+
+h3.redesSociales {
+    padding: 10px;
+}
+
+.redesSociales--icons {
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+//iconos de Footer
+
+.icono-facebook {
+    font-size: 3rem;
+    color: rgb(59, 89, 152);
+    text-shadow: 2px 2px black;
+
+    &:hover {
+        color: #ff0000;
+    }
+}
+
+.icono-github {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+
+    &:hover {
+        color: #ff0000;
+    }
+}
+
+.icono-instagram {
+    font-size: 3rem;
+    color: #E1306C;
+    text-shadow: 2px 2px black;
+
+    &:hover {
+        color: #ff0000;
+    }
+}
+
+.icono-linkedin {
+    font-size: 3rem;
+    color: rgb(33, 93, 221);
+    text-shadow: 2px 2px black;
+
+    &:hover {
+        color: #ff0000;
+    }
+}
+
+.copyright {
+    font-size: 20px;
+    color: white;
+    padding: 5px 0 0;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            color: #ff0000;
+        }
+    }
+}
