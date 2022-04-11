@@ -27,7 +27,10 @@
         h3 {
             color: white;
             font-size: 3em;
+            
         }
+        
+        
         img {
             border: solid 5px #212121;
             border-radius: 60px;
@@ -54,5 +57,14 @@
 }
 
 .heightMain {
-    height: 1500px;
+    height: 2200px;
+}
+div{
+    h3[class="text-light fs-1 border-dark  text-uppercase mt-2 mb-2"]{
+        font-family: 'League Gothic', sans-serif;
+        text-decoration-line: underline overline blink;
+        text-decoration-color: red;
+        font-weight: lighter;
+        font-size: 3em;
+    }
 }

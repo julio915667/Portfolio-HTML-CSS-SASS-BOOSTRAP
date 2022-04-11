@@ -1,0 +1,27 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+En el meta "description" (linea 8) agregue: "Diseño y Desarrollo Web Freelance y Diseño de Paginas Web HTML5 con CSS en Argentina para empresas,profesionales y emprendedores - Staff Web AR.">
+En el meta"keywords"(linea 9) agregue:"Diseño Web, Desarrollo Web, Bootstrap, HTML5,CSS.">
+En el <title>(linea 11) agregue: Diseño y Desarrollo Web  - Staff Web AR.
+
+En el archivo sobremi.html agregue el SEO con las siguientes características:
+En el meta "description" (linea 8-9) agregue:"Me llamo Julian Mendoza, soy Desarrollador Web Freelance, 
+    trabajo en maquetacion y desarrollo de Sitios Web.">
+En el meta"keywords"(linea 10) agregue:"Sobre Mi, Quien Soy, Julian Mendoza, Mas Sobre mi.">
+En el <title>(linea 12) agregue:Sobre mi - Staff Web AR</title>
+
+En el archivo servicios.html agregue el SEO con las siguientes características:
+Meta descripcion (linea 8):  Con las últimas tecnologías y responsive design que se adaptan a 
+todas las plataformas (dispositivos), logramos un Sitio Web multiplataforma...Enterate Aqui!
+En el Meta "keywords"(linea 10) agregue: "Servicio Tecnico Pc, Desarrollo Web, Diseño Web, Presupuestos, Acesoramiento, etc."
+Title (linea 11):  <title>Servicios - Staff Web AR</title>
+
+En el archivo Portfolio.html agregue el SEO con las siguientes características: 
+En el <title> (linea 8) agregue: Conozca los proyectos que realizo como Desarrolador Web Freelance</title>
+En el meta "description"(linea 9) agregue:"Detalles de Trabajos realizados, Mi Portfolio">
+En el meta"keywords"(linea 10) agregue:"Portfolio,Mi Proyectos, Paginas Desarrolladas, Trabajos Realiazados.">
+
+En el archivo contacto.html:
+ En el <title> (linea 8) agregue: Si esta buscando un Desarrolador Web puede contactarme aquí!!</title>
+    En el meta "description"(linea 9) agregue: "¿Como contactar conmigo? Tienes Dudas y soporte técnico, atiendo dudas técnicas, de código, de PC etc. Contactame!">
+En el meta "keywords"(linea 11) agregue: "Contacto, Contactame, Hablame,Presupuesto, Acesoramiento"

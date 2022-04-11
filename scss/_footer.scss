@@ -1,3 +1,4 @@
+
 footer {
     color: white;
     text-align: center;
@@ -10,6 +11,7 @@ footer {
         background: none !important;
         border: 0;
     }
+    @include pb-pt(0px,0px);
 }
 
 h3.redesSociales {
@@ -22,44 +24,65 @@ h3.redesSociales {
 }
 
 //iconos de Footer
-
-.icono-facebook {
+//extend
+/*extend es iconSizeAndshadow*/
+/*iconos de Footer*/
+.iconSizeAndshadow{
     font-size: 3rem;
-    color: rgb(59, 89, 152);
-    text-shadow: 2px 2px black;
+text-shadow: map-get($map:$shadows , $key:'shIcon');
+}
+.iconHoverRed{
+    color: #ff0000;
+}
+.icono-facebook {
+    @extend .iconSizeAndshadow;
+   // font-size: 3rem;
+   color: map-get($map:$colorIconFooter, $key:'colorFb' );
+   // color: rgb(59, 89, 152);
+   // text-shadow: 2px 2px black;
 
     &:hover {
-        color: #ff0000;
+        @extend .iconHoverRed;
+        //color: #ff0000;
     }
 }
 
 .icono-github {
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px black;
+    @extend .iconSizeAndshadow;
+    //font-size: 3rem;
+    color: map-get($map:$colorIconFooter, $key:'colorGit' );
+   // color: rgb(255, 255, 255);
+  //  text-shadow: 2px 2px black;
 
     &:hover {
-        color: #ff0000;
+        @extend .iconHoverRed;
+       // color: #ff0000;
     }
 }
 
 .icono-instagram {
-    font-size: 3rem;
-    color: #E1306C;
-    text-shadow: 2px 2px black;
+    @extend .iconSizeAndshadow;
+   // font-size: 3rem;
+   // color: #E1306C;
+  //  text-shadow: 2px 2px black;
+  color: map-get($map:$colorIconFooter, $key:'colorInst' );
 
     &:hover {
-        color: #ff0000;
+        @extend .iconHoverRed;
+        //color: #ff0000;
     }
 }
 
 .icono-linkedin {
-    font-size: 3rem;
-    color: rgb(33, 93, 221);
-    text-shadow: 2px 2px black;
+    @extend .iconSizeAndshadow;
+    //font-size: 3rem;
+    //color: rgb(33, 93, 221);
+    //text-shadow: 2px 2px black;
+    color: map-get($map:$colorIconFooter, $key:'colorLink' );
 
     &:hover {
-        color: #ff0000;
+        @extend .iconHoverRed;
+        // color: #ff0000;
     }
 }
 

@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
+    <meta name="description" content="Con las últimas tecnologías y responsive design que se adaptan a todas las plataformas (dispositivos), logramos un Sitio Web multiplataforma...Enterate Aqui!">
+    <meta name="author" content="Julian C. Mendoza">
+    <meta name="keywords" content="Servicio Tecnico Pc, Desarrollo Web, Diseño Web, Presupuestos, Acesoramiento, etc.">
+    <title>Servicios - Staff Web AR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -170,13 +173,35 @@
                                 class="fa-brands fa-linkedin-in icono-linkedin"></i></a>
                     </button>
                     <p class="copyright">© 2022 Todos los derechos reservados. Made by <a
-                            href="https://www.facebook.com/julian.mendoza.3994885/">Julian C. Mendoza</a></p>
+                            href="https://www.facebook.com/julian.mendoza.3994885/" target="_blank">Julian C. Mendoza</a></p>
                 </div>
         </footer>
     </div>
     <div>
-        <a href="#Up"> <i class="gg-arrow-up ColorUP"></i></a>
-    </div>
+     <!--  <a href="#Up"> <i class="gg-arrow-up ColorUP"></i></a>
+    </div>-->
+    <button class="btn-scrolltop" id="btn_scrolltop">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+      <script>
+        const btn_scrolltop = document.getElementById("btn_scrolltop")
+          btn_scrolltop.addEventListener('click', () => {
+            window.scrollTo(0, 0)
+          })
+    
+        window.onscroll = () => {
+          add_btn_scrolltop()
+        }
+    
+        const add_btn_scrolltop = () => {
+          if (window.scrollY < 300) {
+            btn_scrolltop.classList.remove("btn-scrolltop-on")
+          } else {
+            btn_scrolltop.classList.add("btn-scrolltop-on")
+          }
+        }
+    
+      </script>
 
     <!--WOW ANIMATE-->
     <script src="../js/wow.min.js"></script>

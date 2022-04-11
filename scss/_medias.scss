@@ -3,7 +3,7 @@
     /*Archivo Index*/
     .contendedor--Welcome {
         div {
-            height: 100vh;
+            height: 1000px;
 
             h2 {
                 font-size: 1.9rem;
@@ -160,18 +160,18 @@
     }
 
     .heightMain {
-        height: 2300px !important;
+        height: 2500px !important;
     }
 }
 
 @media only screen and (max-width: 600px) and (min-width:375px) {
     .heightMain {
-        height: 2500px !important;
+        height: 2800px !important;
     }
 
     .contendedor--Welcome {
         div {
-            height: 100vh;
+            height: 1500px;
 
             h2 {
                 font-size: 2.5rem;
@@ -575,3 +575,6 @@
         width: 45vw;
     }
 }
+@media screen and (min-width: 1280px) and (max-width:1319px){
+    .MainGridServices {
+      height: 2700px; } }

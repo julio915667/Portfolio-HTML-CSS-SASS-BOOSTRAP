@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Si esta buscando un Desarrolador Web puede contactarme aquí!!</title>
+    <meta name="description" content="¿Como contactar conmigo? Tienes Dudas y soporte técnico, atiendo dudas técnicas, de código, de PC etc. Contactame!">
+    <meta name="author" content="Julian C. Mendoza">
+    <meta name="keywords" content="Contacto, Contactame, Hablame,Presupuesto, Acesoramiento">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -143,6 +146,28 @@
                 </div>
         </footer>
     </div>
+    <button class="btn-scrolltop" id="btn_scrolltop">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+      <script>
+        const btn_scrolltop = document.getElementById("btn_scrolltop")
+          btn_scrolltop.addEventListener('click', () => {
+            window.scrollTo(0, 0)
+          })
+    
+        window.onscroll = () => {
+          add_btn_scrolltop()
+        }
+    
+        const add_btn_scrolltop = () => {
+          if (window.scrollY < 300) {
+            btn_scrolltop.classList.remove("btn-scrolltop-on")
+          } else {
+            btn_scrolltop.classList.add("btn-scrolltop-on")
+          }
+        }
+    
+      </script>
     <!--WOW ANIMATE-->
     <script src="../js/wow.min.js"></script>
     <script>

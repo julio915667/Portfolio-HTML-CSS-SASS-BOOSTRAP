@@ -15,7 +15,7 @@
     color: white !important;
     border-radius: 10px;
     display: block;
-    border: 0px;
+    border: 2px solid $colorBg;
     font-weight: 700;
     box-shadow: 0px 0px 14px -7px #f09819;
 
@@ -35,6 +35,8 @@
     a {
         text-decoration: none;
         color: #fff !important;
+        font-family: 'Font Awesome 5 Pro';
+        text-shadow: 1px 1px $colorBg;
     }
 }
 
@@ -110,3 +112,20 @@
         color: black;
     }
 }
+.btn-scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px 20px;
+    background: $colorBgBtn;
+    color:$colorBtn;
+    border: 1px solid $colorBorderBtn;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+  }
+  
+  .btn-scrolltop-on {
+    transform: translateY(0);
+  }
