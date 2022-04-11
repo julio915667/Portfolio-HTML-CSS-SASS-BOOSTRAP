@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://css.gg/arrow-up.css");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -40,7 +41,7 @@ body {
   color: white !important;
   border-radius: 10px;
   display: block;
-  border: 0px;
+  border: 2px solid black;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px #f09819; }
   .btn1:hover {
@@ -54,7 +55,9 @@ body {
     color: white !important; }
   .btn1 a {
     text-decoration: none;
-    color: #fff !important; }
+    color: #fff !important;
+    font-family: 'Font Awesome 5 Pro';
+    text-shadow: 1px 1px black; }
 
 /*BOTON DE SUBIDA: UP*/
 .ColorUP {
@@ -117,6 +120,22 @@ body {
   .btnRed:hover {
     color: black; }
 
+.btn-scrolltop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 15px 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: 0.3s; }
+
+.btn-scrolltop-on {
+  transform: translateY(0); }
+
 /*Animaciones*/
 .contendedor--Welcome:hover div {
   transform: rotate(1turn);
@@ -153,7 +172,7 @@ a.animate__slideOutDown[class="btnRed mb-2 wow animate__slideOutDown animate__sl
   animation-duration: 2s; }
 
 div h3[class="text-light fs-1 border-dark wow animate__fadeInDownBig text-uppercase mt-2 mb-2"] {
-  font-family: none;
+  font-family: 'League Gothic', sans-serif;
   text-decoration-line: underline overline blink;
   text-decoration-color: red; }
 
@@ -164,6 +183,11 @@ div h3[class="text-light fs-1 border-dark wow animate__fadeInDownBig text-upperc
 a.btnRed[href="contacto.html"]:active {
   transform: scale(1.2);
   transition: all .4s; }
+
+/*boton de subida*/
+.btn-scrolltop:active {
+  color: #ffff;
+  background-color: white; }
 
 .ColorStaffH1 {
   font-family: 'Times New Roman';
@@ -211,7 +235,9 @@ footer {
   background-color: #212121;
   position: absolute;
   bottom: 0;
-  width: 100vw; }
+  width: 100vw;
+  padding-top: 0px;
+  padding-bottom: 0px; }
   footer button {
     background: none !important;
     border: 0; }
@@ -223,33 +249,26 @@ h3.redesSociales {
   padding-right: 5px;
   padding-bottom: 5px; }
 
-.icono-facebook {
+/*extend es iconSizeAndshadow*/
+/*iconos de Footer*/
+.iconSizeAndshadow, .icono-facebook, .icono-github, .icono-instagram, .icono-linkedin {
   font-size: 3rem;
-  color: #3b5998;
   text-shadow: 2px 2px black; }
-  .icono-facebook:hover {
-    color: #ff0000; }
+
+.iconHoverRed, .icono-facebook:hover, .icono-github:hover, .icono-instagram:hover, .icono-linkedin:hover {
+  color: #ff0000; }
+
+.icono-facebook {
+  color: #3b5998; }
 
 .icono-github {
-  font-size: 3rem;
-  color: white;
-  text-shadow: 2px 2px black; }
-  .icono-github:hover {
-    color: #ff0000; }
+  color: white; }
 
 .icono-instagram {
-  font-size: 3rem;
-  color: #E1306C;
-  text-shadow: 2px 2px black; }
-  .icono-instagram:hover {
-    color: #ff0000; }
+  color: #E1306C; }
 
 .icono-linkedin {
-  font-size: 3rem;
-  color: #215ddd;
-  text-shadow: 2px 2px black; }
-  .icono-linkedin:hover {
-    color: #ff0000; }
+  color: #215ddd; }
 
 .copyright {
   font-size: 20px;
@@ -271,7 +290,7 @@ h3.redesSociales {
 
 .MainGridServices {
   grid-area: MainNavServices;
-  height: 200vh; }
+  height: 2200px; }
 
 .FooterGridServices {
   grid-area: FootGrid; }
@@ -316,7 +335,7 @@ h3.redesSociales {
   flex-direction: column; }
   .contendedor--Welcome div {
     display: flex;
-    height: 1000px;
+    height: 1200px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -390,7 +409,14 @@ h3.redesSociales {
   color: white; }
 
 .heightMain {
-  height: 1500px; }
+  height: 2200px; }
+
+div h3[class="text-light fs-1 border-dark  text-uppercase mt-2 mb-2"] {
+  font-family: 'League Gothic', sans-serif;
+  text-decoration-line: underline overline blink;
+  text-decoration-color: red;
+  font-weight: lighter;
+  font-size: 3em; }
 
 /*Servicios*/
 .contendedorServices div {
@@ -601,7 +627,7 @@ figure a .photoPage2 {
 @media only screen and (max-width: 375px) and (min-width: 280px) {
   /*Archivo Index*/
   .contendedor--Welcome div {
-    height: 100vh; }
+    height: 1000px; }
     .contendedor--Welcome div h2 {
       font-size: 1.9rem; }
     .contendedor--Welcome div h3 {
@@ -691,13 +717,13 @@ figure a .photoPage2 {
   .form-control1Size {
     width: 77vw; }
   .heightMain {
-    height: 2300px !important; } }
+    height: 2500px !important; } }
 
 @media only screen and (max-width: 600px) and (min-width: 375px) {
   .heightMain {
-    height: 2500px !important; }
+    height: 2800px !important; }
   .contendedor--Welcome div {
-    height: 100vh; }
+    height: 1500px; }
     .contendedor--Welcome div h2 {
       font-size: 2.5rem; }
     .contendedor--Welcome div h3 {
@@ -915,3 +941,7 @@ figure a .photoPage2 {
   .photoPage1,
   .photoPage2 {
     width: 45vw; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1319px) {
+  .MainGridServices {
+    height: 2700px; } }

@@ -48,8 +48,8 @@ a.animate__slideOutDown[ class="btnRed mb-2 wow animate__slideOutDown animate__s
     animation-duration: 2s;
 }
 
-div h3[class="text-light fs-1 border-dark wow animate__fadeInDownBig text-uppercase mt-2 mb-2"] {
-    font-family: none;
+div h3[class="text-light fs-1 border-dark wow animate__fadeInDownBig text-uppercase mt-2 mb-2"] {    
+    font-family: 'League Gothic', sans-serif;
     text-decoration-line: underline overline blink;
     text-decoration-color: red;
 }
@@ -66,4 +66,13 @@ a.btnRed[href="contacto.html"] {
         transform: scale(1.2);
         transition: all .4s;
     }
+}
+
+//boton de subida
+/*boton de subida*/
+.btn-scrolltop{
+   &:active {
+       color:$colorActive;
+       background-color:$colorBorderBtn;
+   } 
 }
