@@ -9,6 +9,7 @@
     trabajo en maquetacion y desarrollo de Sitios Web.">
     <meta name="keywords" content="Sobre Mi, Quien Soy, Julian Mendoza, Mas Sobre mi.">
     <meta name="author" content="Julian C. Mendoza">
+    <meta name="copyright" content="Sobre Mi, Quien Soy, Julian.">
     <title>Sobre mi - Staff Web AR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -32,8 +33,9 @@
             <nav class="navbar navbar-expand-lg navbar-light barra__Nav">
                 <div class="container-fluid ">
                     <a class="navbar-brand d-flex flex-row flex-wrap align-items-center" href="../index.html"><img
-                            src="../img/logo.png" alt="" width="40px">
-                        <h1 class="m-0 px-2 text-uppercase ColorStaffH1 ">Staff Web AR</h1>
+                            src="../img/logo.png" alt="Logo de Staff Web AR" width="40px">
+                        <h1 class="m-0 px-2 text-uppercase ColorStaffH1 " title="Titulo de Staff Web AR">Staff Web AR
+                        </h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -67,40 +69,23 @@
         <main class="heightMain container-fluid d-flex flex-column align-items-center justify-content-center">
             <div>
                 <div class=" container-fluid d-flex flex-column align-items-center justify-content-center">
-                    <img src="../img/fotomia.jpeg" alt=""
+                    <img src="../img/fotomia.jpeg" alt="Foto mia, de Julian C. Mendoza"
                         class="border border-3 border-dark rounded-circle mb-2 wow animate__fadeInDownBig">
                     <div class=" d-flex flex-column align-items-center justify-content-center rounded">
                         <h3 class="text-light fs-1 border-dark  text-uppercase mt-2 mb-2">
                             Sobre mi</h3>
                         <p
-                            class="container-xxl contenedor--sobremiText lh-base text-center Card wow animate__fadeInDownBig">
-                            Lorem ipsum dolor sit amet consectetur,
-                            adipisicing elit.
-                            Dignissimos, aliquid voluptatibus! Ducimus accusantium optio dignissimos modi sed laboriosam
-                            eos
-                            blanditiis corporis at ad, aspernatur hic maxime, numquam autem soluta sequi. Lorem ipsum
-                            dolor
-                            sit amet consectetur adipisicing elit. Quas perspiciatis inventore distinctio modi
-                            cupiditate
-                            odit ad nisi dicta, debitis eius neque, consectetur cumque voluptatem ea quaerat velit
-                            ducimus,
-                            quibusdam saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, minus
-                            maiores. Aspernatur a doloremque nesciunt natus veniam vitae, quis perspiciatis et culpa ab
-                            ullam beatae voluptatum impedit fugit laudantium saepe. Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit. Fugiat iste necessitatibus nisi dolorum dolore corrupti, explicabo iusto
-                            perferendis expedita molestiae laudantium alias soluta. Explicabo animi quia aspernatur
-                            sequi
-                            neque quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quidem
-                            blanditiis
-                            ut quos neque sunt quaerat nam a impedit eum placeat, facere dolor deserunt nemo totam
-                            voluptates est sint? Velit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Suscipit,
-                            earum mollitia quo corporis dolorem explicabo natus, voluptatem, ratione beatae ipsam illo?
-                            Quia
-                            iure laudantium enim tempore voluptas nostrum facilis animi.</p>
+                            class="container-xxl contenedor--sobremiText lh-lg text-center Card wow animate__fadeInDownBig fs-2">
+                            ¿Quien soy? ¿Que puedo decir de mi? Bueno, me gusta estudiar,tengo 20 años, y soy Adventista
+                            del Séptimo Dia. Resido en Santa Fe, Capital, AR. Es un ahnelo el poder adentrarme en el
+                            ámbito laboral para poder independizarme y adquirir nuevas experiencias e desarrollarme como
+                            individuo. Actualmente me desenvuelvo como autónomo Técnico Reparador y de Mantenimiento en
+                            PC (Software y Hardware),con diferentes certificaciones y conocimiento en el ámbito
+                            informático y tecnológico. Actualmente me estoy capacitando para el ámbito del "Desarrollo
+                            Web".
+                        </p>
                         <a href="contacto.html"
-                            class="btnRed mb-2 wow wow animate__fadeInDownBig">Contactarme</a>
+                            class="btnRed mb-2 mt-5 wow wow animate__fadeInDownBig fs-3">Contactarme</a>
                     </div>
                 </div>
             </div>
@@ -140,26 +125,25 @@
     </div>
     <button class="btn-scrolltop" id="btn_scrolltop">
         <i class="fas fa-chevron-up"></i>
-      </button>
-      <script>
+    </button>
+    <script>
         const btn_scrolltop = document.getElementById("btn_scrolltop")
-          btn_scrolltop.addEventListener('click', () => {
+        btn_scrolltop.addEventListener('click', () => {
             window.scrollTo(0, 0)
-          })
-    
+        })
+
         window.onscroll = () => {
-          add_btn_scrolltop()
+            add_btn_scrolltop()
         }
-    
+
         const add_btn_scrolltop = () => {
-          if (window.scrollY < 300) {
-            btn_scrolltop.classList.remove("btn-scrolltop-on")
-          } else {
-            btn_scrolltop.classList.add("btn-scrolltop-on")
-          }
+            if (window.scrollY < 300) {
+                btn_scrolltop.classList.remove("btn-scrolltop-on")
+            } else {
+                btn_scrolltop.classList.add("btn-scrolltop-on")
+            }
         }
-    
-      </script>
+    </script>
     <!--WOW ANIMATE-->
     <script src="../js/wow.min.js"></script>
     <script>

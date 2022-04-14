@@ -136,6 +136,9 @@ body {
 .btn-scrolltop-on {
   transform: translateY(0); }
 
+a.btnRed.mb-2.wow.wow.animate__fadeInDownBig.fs-3 {
+  box-shadow: 0px 9px 14px 7px #ff000082; }
+
 /*Animaciones*/
 .contendedor--Welcome:hover div {
   transform: rotate(1turn);
@@ -418,6 +421,10 @@ div h3[class="text-light fs-1 border-dark  text-uppercase mt-2 mb-2"] {
   font-weight: lighter;
   font-size: 3em; }
 
+p.container-xxl.contenedor--sobremiText.lh-lg.text-center.Card.wow.animate__fadeInDownBig.fs-2 {
+  box-shadow: 20px 19px 44px 20px #000000bf;
+  text-shadow: 2px 2px black; }
+
 /*Servicios*/
 .contendedorServices div {
   display: flex;
@@ -567,8 +574,8 @@ figure a .photoPage2 {
 
 .inputs {
   border-radius: 10px;
-  padding-bottom: 5px;
   padding-top: 5px;
+  padding-bottom: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 20px; }
@@ -717,11 +724,11 @@ figure a .photoPage2 {
   .form-control1Size {
     width: 77vw; }
   .heightMain {
-    height: 2500px !important; } }
+    height: 3700px !important; } }
 
 @media only screen and (max-width: 600px) and (min-width: 375px) {
   .heightMain {
-    height: 2800px !important; }
+    height: 3800px !important; }
   .contendedor--Welcome div {
     height: 1500px; }
     .contendedor--Welcome div h2 {

@@ -19,8 +19,9 @@
     justify-content: center;
     width: 25vw;
     background-color: #212121d1;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    @include pb-pt(10px,10px);
+    //padding-top: 10px;
+   // padding-bottom: 10px;
 }
 
 .displayInputForm {
@@ -45,8 +46,9 @@
 
 .inputs {
     border-radius: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    @include pb-pt(5px,5px);
+    //padding-bottom: 5px;
+   // padding-top: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 20px;
