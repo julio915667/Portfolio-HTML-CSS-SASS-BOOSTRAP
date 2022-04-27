@@ -6,7 +6,7 @@
             height: 1000px;
 
             h2 {
-                font-size: 1.9rem;
+                font-size: 13vw;
             }
 
             h3 {
@@ -33,7 +33,7 @@
     }
 
     .ColorStaffH1 {
-        font-size: 8vw;
+        font-size: 6.3vw;
     }
 
     /*archivo sobre mi*/
@@ -118,46 +118,7 @@
         height: 275px;
     }
 
-    /*Archivo Formulario*/
-    .contenedorFormulario {
-        width: 90vw;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .GridContainerContact {
-        div {
-            form {
-                input.form-control {
-                    width: 70vw;
-                }
-            }
-        }
-    }
-
-    .displayInputForm {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .textAreaForm {
-        width: 80vw !important;
-    }
-
-    .form-control1 {
-        display: inline;
-        width: 90%;
-    }
-
-    .form-control1Size {
-        width: 77vw;
-    }
+   
 
     .heightMain {
         height: 3700px !important;
@@ -171,10 +132,10 @@
 
     .contendedor--Welcome {
         div {
-            height: 1500px;
+            height: 1200px;
 
             h2 {
-                font-size: 2.5rem;
+                font-size: 13vw;
             }
 
             h3 {
@@ -287,38 +248,6 @@
     .photoPage2 {
         width: 90vw;
     }
-
-    /*Archivo Formulario*/
-    .contenedorFormulario {
-        width: 90vw;
-    }
-
-    .GridContainerContact {
-        div {
-            form {
-                input.form-control {
-                    width: 80vw;
-                }
-            }
-        }
-    }
-
-    .displayInputForm {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .textAreaForm {
-        width: 85vw !important;
-    }
-
-    .form-control1 {
-        display: inline;
-        width: 95%;
-    }
 }
 
 @media only screen and (min-width: 600px) and (max-width:815px) {
@@ -329,11 +258,11 @@
     .contendedor--Welcome {
         div {
             h2 {
-                font-size: 3.1rem;
+                font-size: 11vw;
             }
 
             h3 {
-                font-size: 1.7rem;
+                font-size: 2.7rem;
             }
         }
     }
@@ -420,12 +349,6 @@
     .photoPage2 {
         width: 90vw;
     }
-
-
-    .form-control1 {
-        display: flex;
-        width: 45vw;
-    }
 }
 
 @media only screen and (min-width:815px) and (max-width:1016px) {
@@ -505,14 +428,14 @@
         width: 45vw;
     }
 
-    .form-control1 {
-        display: flex;
-        width: 45vw;
-    }
+    
 }
 
 @media screen and (min-width:1016px) and (max-width:1280px) {
-
+/*index*/
+.contendedor--Welcome div h2{
+    font-size: 10vw;
+  }
     /*archivo servicios*/
     .contendedorServices {
         height: 700px;
@@ -561,11 +484,6 @@
         }
     }
 
-    .form-control1 {
-        display: flex;
-        width: 45vw;
-    }
-
     .StyleTitleOfThePage .StyleOfTheMediaQuery {
         font-size: 9vw;
     }
@@ -579,5 +497,11 @@
 @media screen and (min-width: 1280px) and (max-width:1319px) {
     .MainGridServices {
         height: 2700px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1042px) {
+    a[class="nav-link active text-light"]{
+        font-size:2.3vw;
     }
 }

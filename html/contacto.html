@@ -14,7 +14,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos2.css">
-    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="shortcut icon" href="../img/logo.webp">
     <!--Libreria de Animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- CSS only -->
@@ -28,7 +28,7 @@
             <nav class="navbar navbar-expand-lg navbar-light barra__Nav">
                 <div class="container-fluid ">
                     <a class="navbar-brand d-flex flex-row flex-wrap align-items-center" href="../index.html"><img
-                            src="../img/logo.png" alt="Logo de Staff Web AR " width="40px">
+                            src="../img/logo.webp" alt="Logo de Staff Web AR " width="40px">
                         <h1 class="m-0 px-2 text-uppercase ColorStaffH1 " title="Titulo de Staff Web AR">Staff Web AR</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -61,34 +61,36 @@
         </header>
         <main class="GridMainContact wow animate__backInDown">
             <div class="ContenedorFormularioGlobal">
-                <form class="contenedorFormulario container-fluid">
+                <form class="contenedorFormulario container-fluid"  action="https://formspree.io/f/xzbojwvj"
+                method="POST" action="https://formspree.io/f/xzbojwvj"
+                method="POST">
                     <div class="mb-3 divSize">
                         <label for="formGroupExampleInput" class="form-label"><i
                                 class="fa-solid fa-user iconsForm"></i>Nombre y Apellido</label>
                         <input type="text" class="form-control1" id="formGroupExampleInput"
-                            placeholder="ej: vladimir makarov">
+                            placeholder="ej: vladimir makarov" name="Name" required>
                     </div>
                     <div class="mb-3 divSize">
                         <label for="formGroupExampleInput" class="form-label"><i
                                 class="fa-solid fa-envelope pr-6 iconsForm"></i>Email</label>
                         <input type="email" class="form-control1" id="formGroupExampleInput"
-                            placeholder="ej: Email@mail.com">
+                            placeholder="ej: Email@mail.com" name="email" required>
                     </div>
                     <div class="mb-3 divSize">
                         <label for="exampleInputPassword1" class="form-label text-light"><i
                                 class="fa-solid fa-square-phone iconsForm"></i>Telefono</label>
-                        <input type="tel" class="form-control1" id="exampleInputPassword1">
+                        <input type="tel" class="form-control1" id="exampleInputPassword1" name="tel">
                     </div>
                     <div class="mb-3 divSize">
                         <label for="formGroupExampleInput2" class="form-label"><i
                                 class="fa-solid fa-message iconsForm"></i>Asunto</label>
-                        <input type="text" class="form-control1" id="formGroupExampleInput2">
+                        <input type="text" class="form-control1" id="formGroupExampleInput2" name="text">
                     </div>
                     <div class="mb-3 divSize">
                         <label for="exampleFormControlTextarea1" class="form-label"><i
                                 class="fa-solid fa-message-pen iconsForm"></i>Deja tu Mensaje</label>
                         <textarea class="form-control1 textAreaForm" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Escriba su Asunto"></textarea>
+                            placeholder="Escriba su Asunto" name="message"></textarea>
                     </div>
                     <div class="mb-3 form-check Condiciones">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
@@ -98,22 +100,7 @@
                     <button type="submit" class="btn" id="submit">Enviar</button>
                 </form>
             </div>
-            <!--<div class="ContenedorFormularioGlobal">
-            <form action="" class="contenedorFormulario">
-                <label for="Texto" class="TextOfTheInputs">Nombre y Apellido</label>
-                <input type="text" name="Name" placeholder="Julian Mendoza" id="Texto" required class="inputs">
-                <label for="Email" class="TextOfTheInputs">Email</label>
-                <input type="email" name="Email" placeholder="email@email.com" id="Email" required class="inputs">
-                <label for="Telefono" class="TextOfTheInputs">Telefono</label>
-                <input type="tel" name="Telefono" placeholder="+11 11 11111334" id="Telefono" required class="inputs">
-                <label for="Asunto" class="TextOfTheInputs">Asunto</label>
-                <input type="Asunto" name="Asunto" placeholder="" id="Asunto" required class="inputs">
-                <label for="Mensaje" class="TextOfTheInputs">Deja tu Mensaje</label>
-                <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Escribe tu comentario.."
-                    class="inputs"></textarea>
-                <input type="submit" value="Enviar" id="submit">
-            </form>
-        </div>-->
+            
         </main>
         <footer class="GridFooterContact">
             <!--SECCION DE REDES SOCIALES-->
@@ -146,28 +133,12 @@
                 </div>
         </footer>
     </div>
-    <button class="btn-scrolltop" id="btn_scrolltop">
-        <i class="fas fa-chevron-up"></i>
-      </button>
-      <script>
-        const btn_scrolltop = document.getElementById("btn_scrolltop")
-          btn_scrolltop.addEventListener('click', () => {
-            window.scrollTo(0, 0)
-          })
-    
-        window.onscroll = () => {
-          add_btn_scrolltop()
-        }
-    
-        const add_btn_scrolltop = () => {
-          if (window.scrollY < 300) {
-            btn_scrolltop.classList.remove("btn-scrolltop-on")
-          } else {
-            btn_scrolltop.classList.add("btn-scrolltop-on")
-          }
-        }
-    
-      </script>
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=+543424094472&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Desarrollo%20Web." class="btn-wsp d-flex justify-content-center align-items-center" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a>
+    </button>
+    </div>
     <!--WOW ANIMATE-->
     <script src="../js/wow.min.js"></script>
     <script>
