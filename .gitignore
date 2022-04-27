@@ -2,3 +2,6 @@
 *.zip
 *.rar
 node_modules
+.htaccess
+css\a eliminar
+img\Nueva carpeta
