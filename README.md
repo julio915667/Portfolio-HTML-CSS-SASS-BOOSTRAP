@@ -1,3 +1,5 @@
 # proyecto-Julian-Mendoza
-Proyecto Para Coder House Julian. C. Mendoza
-Curso de Desarrollo Web
+Mi Primer Pagina Desarrollada 
+
+http://juliancristianmendozasf.42web.io/
+
